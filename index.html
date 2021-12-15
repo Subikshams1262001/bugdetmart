@@ -1,0 +1,132 @@
+<Html>
+<head>
+<title>Budget mart</title>
+<link rel="stylesheet" type="text/css" href="styles/styles1.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link  rel="icon" type="logo/icon" href="images/bmglogo.PNG">
+<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
+<script src="styles/styles/js/jquery.min.js"></script>
+<script src="styles/styles/js/bootstrap.min.js"></script>
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="styles/js/jquery.min.js"></script>
+<script src="style/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body{
+background-image:url('images/dashbg3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+.header{
+top:0;
+left:0;
+height:100px;
+width:500%;
+position:fixed;
+background-color:green;
+}
+.dropbtn {
+    background-color:white;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+    width:100px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative
+}
+.dropdown-content {
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="images/bmglogo.PNG" alt="logo" width="90" height="90"
+style="margin-left:5px;
+margin-top:4px;
+margin-bottom:5px;;border-radius:50%">
+<div class="google">
+<h1 style="margin-left:65px;font-family:times new roman;font-size:40">Budget mart grocery system</h1>
+<div class="dropdown">
+<button class="dropbtn" style="margin-left:1100px;margin-top:-50px;font-size:14"><b>Login<b></button>
+<div class="dropdown-content" style="margin-left:1000px;">
+<a href="adminlogin.py">Admin</a>
+<a href="shopowner_login.py">Shopowner</a>
+<a href="customer_login.py">Customer</a>
+</div>
+</div>
+<div>
+<div class="dropdown">
+<button class="dropbtn" style="margin-left:1250px;margin-top:-50px;font-size:14"><b>Register<b></button>
+<div class="dropdown-content" style="margin-left:1150px;">
+<a href="shopowner_reg.py">Shopowner</a>
+<a href="customer_reg.py">Customer</a>
+</div>
+</div>
+</div>
+ </div>
+ </div>
+<div class="container" style="margin-left:20px;margin-top:120px;">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" ></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/regisbg9.jpg" alt="regisbg9" style="width:88%;height:80%">
+      </div>
+
+      <div class="item">
+	  <img src="images/regisbg.jpg" alt="regisbg" style="width:88%;height:80%">
+     </div>
+
+      <div class="item">
+        <img src="images/regisbg1.jpg" alt="regisbg1" style="width:88%;height:80%">
+      </div>
+    </div>
+
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="margin-right:136px;">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+ </body>
+ </html>

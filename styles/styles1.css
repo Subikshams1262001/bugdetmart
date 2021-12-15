@@ -1,0 +1,41 @@
+body{
+background-image: url('loginbg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+.header{
+top:0;
+left:0;
+height:80px;
+width:500%;
+position:fixed;
+background-color:green;
+}
+.google{
+color:white;
+position:absolute;
+top:0px;
+left:50px;
+}
+.card{
+height: 550px;
+margin-top: auto;
+margin-bottom: auto;
+width: 500px;
+background-color: rgba(232,230,232,0.7) !important;
+}
+.card-header h3{
+color:black;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
